@@ -3,64 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  <style>
-    html, body{
-      min-height: 100%;
-      font-family: sans-serif, Tahoma;
-    }
-    html, body, p, ul{
-      margin: 0;
-      padding: 0;
-    }
-    #container{
-      width: 1200px;
-      margin-left: auto;
-      margin-right: auto;
-      -webkit-box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.75);
-      -moz-box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.75);
-      box-shadow: 0px 0px 16px -5px rgba(0,0,0,0.75);
-      min-height: 100%;
-    }
-    #container .menu{
-      height: 60px;
-    }
-    #container .menu ul{
-      border-left: solid 5px darkred;
-      border-bottom: solid 2px darkred;
-      height: 100%;
-      background-color: #eee;
-    }
-    #container .menu ul>li{
-      list-style-type: none;
-      width: fit-content;
-      float: left;
-      padding: 20px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    #container .menu ul>li:hover, #container .menu ul.sub>li:hover{
-      background-color: darkred;
-      color: white;
-    }
-    #container .menu ul>li:hover .sub{
-      display: block;
-    }
-    #container .menu ul.sub{
-      position: absolute;
-      height: auto;
-      border: none;
-      margin-left: -20px;
-      margin-top: 22px;
-      display: none;
-      border-top: solid 2px darkred;
-    }
-    #container .menu ul.sub>li{
-      float: none;
-      width: auto;
-      border-bottom: 2px solid #ddd;
-      color: black;
-    }
-  </style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
   <div id = "container">
